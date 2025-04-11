@@ -116,26 +116,3 @@ pie
     "Cálculos" : 10
 ```
 
-## Melhorias Recomendadas
-
-1. **Tratamento de erros robusto**:
-   ```powerquery-m
-   = Table.AddColumn(..., "DataPadronizada", each 
-       try ... // sua lógica atual
-       otherwise error "Formato de data inválido: " & Text.From([OrderDate])
-   )
-   ```
-
-2. **Documentação inline**:
-   ```powerquery-m
-   // 2024-03-15 | Alan | Converte múltiplos formatos de data
-   = Table.AddColumn(...)
-   ```
-
-3. **Funções reutilizáveis**:
-   ```powerquery-m
-   let
-       fnPadronizaData = (input) => ... // sua lógica de data aqui
-   in
-       Table.AddColumn(..., "Data", each fnPadronizaData([OrderDate]))
-   ```
