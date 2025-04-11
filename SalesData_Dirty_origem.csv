@@ -1,0 +1,11 @@
+OrderID,CustomerName,Product_Code,OrderDate,Quantity,UnitPrice,Region
+1001,  John Doe ,P_1001,15/01/2023,5,29.99,SE
+1002,Jane Smith,P_1002,2023-01-16,3,49.99,NE
+1003,Bob Johnson,,17/01/2023,,19.99,MW
+1004,Alice Brown,P_1004,18-01-2023,2,89.99,SE
+1005,"Charlie Davis, Jr.",P_1005,19/01/2023,1,59.99,NW
+1006,Eva Green,P_1006,20/01/2023,4,39.99,SE
+1007,,P_1007,21/01/2023,3,29.99,SW
+1008,George White,P_1008,22/01/2023,2,99.99,NE
+1009,Hannah Black,P_1009,23/01/2023,1,79.99,MW
+1010,Ian Gray,P_1010,24/01/2023,0,69.99,NW
